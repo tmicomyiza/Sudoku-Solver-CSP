@@ -32,10 +32,13 @@ you will receive guidance on the use of the program on terminal.
 
     2. You can create an input file with the following format:
         row col value newline
+        
 
         Note: these are values to help initialize fixed cells on sudoku
+## PROVIDED TEST FILES
+    easy.txt and harder.txt as test files
 
-Note: You cannot provide the filename name as parameter when you launch the program.
+## Note: You cannot provide the filename name as parameter when you launch the program.
 
 
 
