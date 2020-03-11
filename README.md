@@ -1,5 +1,5 @@
 # SudokuSolver-CSP
-## Jamie Weiss and Mico Theogene
+## Jamie Weiss and Mico Micomyiza Theogene
 
 
 ## DESCRIPTION
@@ -11,7 +11,7 @@ This repository contains two python files and a README.
 csp.py contains the models used.
 sodoku.py contains the implementation and main code to solve sudoku provided
 
---
+
 ## REQUIREMENTS
 
 Minimum Python requirements (earlier versions may work but have not been tested):
