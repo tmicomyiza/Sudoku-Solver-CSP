@@ -1,5 +1,5 @@
 # SudokuSolver-CSP
-## Jamie Weiss and Mico Micomyiza Theogene
+## Mico Micomyiza Theogene and Jamie Weiss
 
 
 ## DESCRIPTION
