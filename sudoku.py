@@ -1,5 +1,6 @@
 from termcolor import colored
 from csp import *
+import time
 
 
 #returns a list of values
@@ -206,15 +207,26 @@ def main():
     #create CPS instance to represent the board
     csp = CSP(board)
 
+    #start timing
+    starttimer = time.time()
+
     # solution is boolean value. True when there's a solution. False otherwise
     solution = Back_Tracking_Search(csp)
+
+    #stop timer
+    endtimer = time.time()
 
     if solution == True:
         print(colored("Congratulations! Sudoku solved", "blue"))
         display(csp.board)
 
+        print(colored("\nThe algorithm took {0:0.1f} seconds to find solution"
+                                        .format(endtimer - starttimer), "blue"))
+
     else:
         print(colored("Sudoku provided has no solution", "blue"))
+        print(colored("\nThe algorithm took {0:0.1f} seconds to find solution"
+                                        .format(endtimer - starttimer), "blue"))
 
 
 if __name__ == "__main__":
